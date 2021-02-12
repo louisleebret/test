@@ -115,9 +115,9 @@ class Patient {
       cout<<"no abnormal measurments"<<endl;
     }
     else{
-      cout<<"Abnormal systolic preasure: "<<endl;
+      cout<<"Abnormal systolic preasure: "<<endl<<endl;
       for(int i = 0;i<abnormal.size(); i++){
-        cout<<"systp "<<abnormal[i].get_sys()<<" diasp "<<abnormal[i].get_dias()<<" taken on: "<<abnormal[i].get_Date().get_day()<<", "<<abnormal[i].get_Date().get_month()<<" ,"<<abnormal[i].get_Date().get_year()<<endl<<endl;
+        cout<<"systp "<<abnormal[i].get_sys()<<" diasp "<<abnormal[i].get_dias()<<" taken on: "<<abnormal[i].get_Date().get_day()<<", "<<abnormal[i].get_Date().get_month()<<" ,"<<abnormal[i].get_Date().get_year()<<endl;
 
         
       }
